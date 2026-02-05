@@ -10,11 +10,11 @@ import Contact from './components/Contact';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
-  const [theme, setTheme] = useState(() => localStorage.getItem('theme') || 'light');
+  const [theme, setTheme] = useState(() => localStorage.getItem('theme') || 'dark');
 
   useEffect(() => {
     // We still sync the class just in case React state drifts, though index.html does it first.
-    const savedTheme = localStorage.getItem('theme') || 'light';
+    const savedTheme = localStorage.getItem('theme') || 'dark';
     if (savedTheme === 'dark') {
       document.documentElement.classList.add('dark');
     } else {
