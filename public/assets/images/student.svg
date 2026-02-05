@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240">
+  <rect width="100%" height="100%" rx="12" fill="#06b6d4"/>
+  <g fill="white" transform="translate(24,36)">
+    <rect width="352" height="168" rx="10" fill="rgba(255,255,255,0.06)"/>
+    <text x="26" y="60" font-size="22" font-family="Arial, Helvetica, sans-serif">Student Management System</text>
+    <text x="26" y="96" font-size="14" opacity="0.9">Console application in C managing student data</text>
+  </g>
+</svg>
